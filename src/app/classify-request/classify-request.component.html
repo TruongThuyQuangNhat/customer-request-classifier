@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Phân loại yêu cầu khách hàng</h2>
+
+  <textarea [(ngModel)]="text" rows="5" placeholder="Nhập yêu cầu của khách hàng..."></textarea>
+
+  <button (click)="classify()">Phân loại</button>
+
+  <div *ngIf="result">
+    <h3>Kết quả:</h3>
+    <p><strong>Phân loại:</strong> {{ result }}</p>
+  </div>
+</div>

@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://127.0.0.1:5000'  // URL Flask
+  apiUrl: 'https://text-classification-project.onrender.com'  // URL Flask
 };

@@ -5,6 +5,8 @@
 
   <button (click)="classify()">Phân loại</button>
 
+  <div *ngIf="loading" class="spinner"></div> <!-- Thêm dòng này -->
+
   <div *ngIf="result">
     <h3>Kết quả:</h3>
     <p><strong>Phân loại:</strong> {{ result }}</p>
